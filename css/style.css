@@ -69,7 +69,7 @@ header{
     background: linear-gradient(to left, rgb(61, 57, 121), rgb(75, 17, 236), rgb(191, 197, 250)) ;
 }
 .container h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
     font-size: 2.5em;
     text-align: center; 
 }
