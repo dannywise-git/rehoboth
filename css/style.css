@@ -36,7 +36,7 @@ header{
 .nav-center{
     background-image: url(../images/back2.jfif);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     /* height: 28em; */
 }
 .nav-center-con{
