@@ -1,0 +1,76 @@
+@media only screen and (max-width:800px){
+    .first-ul{
+        display: none;
+        position: absolute;
+        width: 100%;
+        background: linear-gradient(to right, blue, rgb(89, 89, 177), rgb(132, 132, 209));
+    }
+    .dropdown{
+        display: inline-block;
+        /* position: relative; */
+    }
+    .span-1{
+        display: block;
+    }
+    .dropdown .first-ul{
+        display: block;
+    }
+    .rehoboth{
+        line-height: 0.2em;
+    }
+    .nav-center-con h1{
+        font-size: 4em;
+    }
+    .nav-center-con h3{
+        font-size: 2em;
+    }
+    .nav-center-con P{
+        color: rgb(243, 14, 7);
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container-1-con, .image1{
+        width: 90%;
+        margin: auto;
+    }
+    .group-con{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .group-con-div img{
+        height: 13em;
+    }
+    .invite button{
+        width: 25%;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-1 img{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:320px){
+    .nav-center-con h1{
+        font-size: 3em;
+    }
+    .nav-center-con h3{
+        font-size: 1.5em;
+    }
+    .button-1{
+        width: 50%;
+    }
+    .group-con{
+        grid-template-columns: 1fr;
+    }
+    .group-con-div img{
+        height: 10em;
+    }
+    .invite button{
+        width: 35%;
+    }
+    .album h1, .album p{
+        font-size: 2em;
+    }
+}
