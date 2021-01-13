@@ -1,15 +1,29 @@
 @media only screen and (max-width:800px){
+    header{
+        height: 4em;
+    }
+    .logo img {
+        width: 25%;
+        margin-left: -3em;
+    }
     .first-ul{
         display: none;
+        justify-content: right;
         position: absolute;
         left: 0;
         top: 3em;
         min-width: 100%;
         background: linear-gradient(to right, blue, rgb(89, 89, 177), rgb(132, 132, 209));
     }
+    .first-ul a{
+        margin: 0;
+    }
+    .nav-center{
+        height: 15em;
+    }
     .dropdown{
         display: inline-block;
-        /* position: relative; */
+        float: right;
     }
     .span-1 img{
         width: 40%;
@@ -29,9 +43,9 @@
     .nav-center-con h3{
         font-size: 2em;
     }
-    .nav-center-con P{
-        color: rgb(243, 14, 7);
-    }
+    /* .nav-center-con P{
+        color: rgb(253, 7, 7);
+    } */
     .container-1{
         flex-direction: column;
     }
@@ -44,6 +58,9 @@
     }
     .group-con-div img{
         height: 13em;
+    }
+    .album p{
+        font-size: 1.5em;
     }
     .invite button{
         width: 25%;
@@ -77,5 +94,8 @@
     }
     .album h1, .album p{
         font-size: 2em;
+    }
+    .album p{
+        font-size: 1em;
     }
 }

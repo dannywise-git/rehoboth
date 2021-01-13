@@ -18,7 +18,7 @@
 }
 .gallary-image img{
     width: 100%;
-    height: 16em;
+    height: 14em;
     border: 3px solid orangered;
     border-radius: 15px;
     transform: scale(0.95);

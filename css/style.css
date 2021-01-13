@@ -12,19 +12,28 @@ header{
     background-color: rgb(39, 36, 36);
     text-align: center;
     padding: 0.5em 0;
+    display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 4;
 }
+.logo img {
+    width: 30%;
+}
 .first-ul{
     display: flex;
-    justify-content: space-around;
     list-style: none;
+}
+.red{
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
 }
 .first-ul a{
     text-decoration: none;
     color: white;
     font-size: 1.5em;
+    margin-right: 2em;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .first-ul a:hover{
@@ -34,7 +43,7 @@ header{
     color: rgb(207, 16, 16);
 }
 .nav-center{
-    background-image: url(../images/back2.jfif);
+    background-image: url(../images/keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 28em; */
@@ -58,7 +67,8 @@ header{
 }
 .nav-center-con h3{
     font-size: 3.5em;
-    color: white;
+    color: rgb(7, 5, 5);
+    font-weight: bold;
 }
 .nav-center-con P{
     color: rgb(230, 105, 22);
@@ -66,7 +76,7 @@ header{
 }
 .container{
     padding: 2.5em 0;
-    background: linear-gradient(to left, rgb(61, 57, 121), rgb(75, 17, 236), rgb(191, 197, 250)) ;
+    /* background: linear-gradient(to left, rgb(61, 57, 121), rgb(75, 17, 236), rgb(191, 197, 250)) ; */
 }
 .container h1{
     font-family: Georgia;
@@ -91,7 +101,7 @@ header{
 }
 .container-1-con p{
     opacity: 0.95;
-    color: white;
+    
     font-family: cursive;
 }
 .button-1{
@@ -106,14 +116,22 @@ header{
     box-shadow: 4px 4px 6px rgb(66, 65, 65);
 }
 .group{
-    background: linear-gradient(to right,  rgb(32, 1, 1),  rgb(252, 40, 2),  rgb(29, 5, 1));
+    /* background: linear-gradient(to right,  rgb(32, 1, 1),  rgb(252, 40, 2),  rgb(29, 5, 1)); */
     margin-top: 0;
     padding: 1em 0;
     text-align: center;
     color: white;
+
 }
-.group h1{
-   font-size: 2.5em;
+.h1{
+    width: 100%;
+    font-size: 2em;
+    border: none;
+    padding: 1em 0;
+    outline: none;
+}
+.hr-1{
+    margin-top: 2em;
 }
 .group-con{
     display: grid;
@@ -172,6 +190,7 @@ footer{
     display: flex;
     justify-content: space-around;
     margin-top: 5em;
+    color: white;
 }
 .footer-1 img{
     width: 50%;
@@ -181,7 +200,7 @@ footer{
 }
 .footer-2 a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.3em;
     opacity: 0.7;
 }
